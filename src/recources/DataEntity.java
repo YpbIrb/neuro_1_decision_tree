@@ -12,4 +12,11 @@ public class DataEntity {
     public List<String> getAttr_vals() {
         return attr_vals;
     }
+
+    @Override
+    public String toString() {
+        return "DataEntity{" +
+                "attr_vals=" + attr_vals +
+                '}';
+    }
 }
